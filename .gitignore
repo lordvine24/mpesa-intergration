@@ -1,0 +1,9 @@
+# Ignore config.php because it contains secret API keys
+config.php
+
+# Optional: Ignore common PHP and system files
+/vendor/
+/node_modules/
+*.log
+*.env
+.DS_Store

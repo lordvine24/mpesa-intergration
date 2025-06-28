@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>M-Pesa Payment</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f8f8f8; padding: 40px;">
+
+  <h2 style="color: #34a853; text-align: center;">Pay with M-Pesa</h2>
+
+  <form action="stkpush.php" method="post" style="max-width: 400px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+
+    <label style="display: block; margin-bottom: 6px;">Phone Number:</label>
+    <input type="text" name="phone" placeholder="2547XXXXXXXX" required
+           style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;" />
+
+    <label style="display: block; margin-bottom: 6px;">Amount:</label>
+    <input type="number" name="amount" required
+           style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;" />
+
+    <button type="submit"
+            style="background-color: #34a853; color: white; padding: 12px 20px; border: none; border-radius: 4px; width: 100%; font-size: 16px; cursor: pointer;">
+      Pay Now
+    </button>
+
+  </form>
+
+</body>
+</html>
